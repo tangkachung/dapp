@@ -1,5 +1,5 @@
 Here is a documentation of the dapp.
-It may contain the idea of our dapp, the guideline of the work and the input, output and process. 
+It may contain the idea of our dapp, the guideline of the work and the input, output and process.
 
 
 Installing Dependencies: (in ubuntu)
@@ -36,6 +36,47 @@ https://www.google.com/chrome/
 
 This is a extension for Google Chrome. This extension can allow the user to be connected to their own local ethereum blockchain and decentrailized web. 
 
-6.
+6. Sublime Text with ethereum package (optional)
+
+Sublime: https://www.sublimetext.com/
+Ethereum package : https://packagecontrol.io/packages/Ethereum
+
+Here is an instruction to download and install this package:
+	1. go to https://packagecontrol.io/installation
+	2. follow the manual or simple method 
+	3. restart sublime text
+	4. Ctrl + Shift + P and input "Package Control: Install Package"
+	5. Input "ethereum" and verify if the version is same as https://packagecontrol.io/packages/Ethereum
+
+Since most editor or IDE do not provide the syntax highlighting for Ethereum, it is recommended to use Sublime text with ethereum package that can provide the syntax highlighting for Solidity. 
+
+----------------------------------------------------------------------------------
+
+Testing all of dependency:
+1. Create a folder for a new project
+2. Open the command line and input "truffle unbox pet-shop"  (which will create a truffle project)
+3. In command line that located to the project, input "subl ."
+4. If it does not have folder explorer, click "View" --> "Side bar" --> "Show Side Bar" and "Show Open File"
+5. you will see the frame you have downloaded. 
+
+-----------------------------------------------------------------------------------
+
+Here is the whole truffle project's ("pet-shop") structure: 
+1. folder "contracts" --> "Migrations.sol" which is the a default contract. Contains the Solidity source files for our smart contracts. 
+
+2. folder "migrations" --> "initial_migration.js" which is for deploying and handling "Migration.sol". Truffle uses a migration system to handle smart contract deployments.
+ 
+3. folder "test" --> some js, png, json file, contains both JavaScript and Solidity tests for our smart contracts. 
+
+
+
+
+
+
+
+
+
+
+
 
 
