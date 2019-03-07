@@ -1,2 +1,41 @@
 Here is a documentation of the dapp.
 It may contain the idea of our dapp, the guideline of the work and the input, output and process. 
+
+
+Installing Dependencies: (in ubuntu)
+1. Node.js
+	sudo apt install nodejs
+
+2. npm
+	sudo apt install npm
+
+Above of two dependencies are for installing Truffle. 
+
+
+3. Truffle
+	sudo npm install -g truffle
+
+Truffle framework allow us to create decentralized applications on eth blockchain. It contains a suite of tool for developing smart contacts with Solidity programming language. Besides, it enable us to test our smart contracts and deploy them to blockchain. 
+
+4. Ganache
+https://truffleframework.com/ganache
+
+User need to download Ganache first. Then, set the permission to be executable. In linux (ubuntu), right click the file --> properties --> permissions and tick "Allow executing file as program" 
+Finally, you double click it again. 
+
+This is a local in-memory blockfchain. It provide us 10 external accounts with addresses on local ethereum blockchain. Each account has its own address, balance (ETH), TX count, index and private key. 
+
+5. Metamask
+
+https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
+
+Using google chrome to download this extension. 
+
+If you do not install google chrome, here is a link to google chrome download page:
+https://www.google.com/chrome/
+
+This is a extension for Google Chrome. This extension can allow the user to be connected to their own local ethereum blockchain and decentrailized web. 
+
+6.
+
+
